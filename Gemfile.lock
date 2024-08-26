@@ -130,6 +130,13 @@ GEM
       dry-schema (>= 1.12, < 2)
       zeitwerk (~> 2.6)
     erubi (1.13.0)
+    factory_bot (6.4.6)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.4.3)
+      factory_bot (~> 6.4)
+      railties (>= 5.0.0)
+    faker (3.4.2)
+      i18n (>= 1.8.11, < 2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
@@ -302,6 +309,8 @@ GEM
       rubocop-rails
     ruby-progressbar (1.13.0)
     securerandom (0.3.1)
+    shoulda-matchers (6.4.0)
+      activesupport (>= 5.2.0)
     sidekiq (7.3.1)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
@@ -366,12 +375,15 @@ DEPENDENCIES
   brakeman
   debug
   dry-validation
+  factory_bot_rails
+  faker
   http (= 5.0.1)
   puma (>= 5.0)
   rails (~> 7.2.0)
   reform
   rspec-rails (~> 6.1.0)
   rubocop-rails-omakase
+  shoulda-matchers (~> 6.0)
   sidekiq
   sqlite3 (>= 1.4)
   trailblazer (= 2.1.0)
