@@ -147,11 +147,12 @@ GEM
       activesupport (>= 6.1)
     hashie (5.0.0)
     hirb (0.7.3)
-    http (5.0.1)
-      addressable (~> 2.3)
+    http (5.2.0)
+      addressable (~> 2.8)
+      base64 (~> 0.1)
       http-cookie (~> 1.0)
       http-form_data (~> 2.2)
-      llhttp-ffi (~> 0.3.0)
+      llhttp-ffi (~> 0.5.0)
     http-cookie (1.0.7)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
@@ -163,7 +164,7 @@ GEM
       reline (>= 0.4.2)
     json (2.7.2)
     language_server-protocol (3.17.0.3)
-    llhttp-ffi (0.3.1)
+    llhttp-ffi (0.5.0)
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
     logger (1.6.0)
@@ -377,7 +378,7 @@ DEPENDENCIES
   dry-validation
   factory_bot_rails
   faker
-  http (= 5.0.1)
+  http (= 5.2.0)
   puma (>= 5.0)
   rails (~> 7.2.0)
   reform
