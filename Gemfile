@@ -32,7 +32,7 @@ gem "bootsnap", require: false
 gem "reform"
 gem "dry-validation"
 
-gem "trailblazer", "2.1.0"
+gem "trailblazer", "2.1.3"
 gem "trailblazer-rails"
 gem 'blueprinter'
 gem 'sidekiq'
